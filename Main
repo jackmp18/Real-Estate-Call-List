@@ -1,0 +1,30 @@
+<?php
+function addcontact() { //adds contact to the array
+  echo "Hello world!";
+}
+function addtodo() { //adds to the running todo list
+  echo "Hello world!";
+}
+function deletecontact() { // takes user selected contact and removes it
+  echo "Hello world!";
+}
+function printtodo() { // prints todo list
+  echo "Hello world!";
+}
+function printcontact() { //prints contact list
+  echo "Hello world!";
+}
+$contacts = array ( //array size 10 for holding contacts
+  array("Warren T. Rankin","928-313-8582","WarrenTRankin@dayrep.com"),
+  array("Gerald B. Orr","703-363-0273","GeraldBOrr@jourrapide.com"),
+  array("empty","empty","empty"),
+  array("Michael M. Lawson","505-324-9139","MichaelMLawson@jourrapide.com"),
+  array("empty","empty","empty"),
+  array("empty","empty","empty"),
+  array("empty","empty","empty"),
+  array("empty","empty","empty"),
+  array("empty","empty","empty"),
+  array("empty","empty","empty"),
+);
+print_r($contacts);
+?>
